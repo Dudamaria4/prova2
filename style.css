@@ -1,0 +1,53 @@
+body{
+    font-family: Arial;
+    background-color: gray;
+
+}
+.container{
+    background-color: white;
+    background-image: url("F1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+header{
+    text-align: center
+}
+
+main{
+    padding: 20px;
+}
+
+h4{
+    border: 1px solid;
+    border-top: none;
+    padding: 10px;
+    margin: 0;
+    background-image: url('bandeira.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+a.hover{
+    text-decoration: underline;
+    color: #886600;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    text-indent: 10%;
+    line-height: 1.5;
+}
+table.teams{
+    border-collapse: collapse;
+}
+table.teams td{
+    border-bottom: 1px dashed #888888;
+}
+table.pilots{
+    border-collapse: collapse;
+}
